@@ -1,4 +1,4 @@
-class Pet {
+class Shelter {
     constructor(id, nombre, especie, edad, estaVacunado) {
         this.id;
         this.nombre = nombre;
@@ -8,4 +8,4 @@ class Pet {
     }
 }
 
-module.exports = Pet
+module.exports = Shelter
