@@ -1,11 +1,22 @@
-# API-shelter Docker Deployment Guide
+# API-shelter - Guía Rápida 🚀
 
-## Prerequisites
-- Docker installed on your system
-- Docker Hub account
+## 📦 Imagen Docker
+```bash
+docker pull jaumegm97/ifc31c-iaw-gual-jaume:v1
 
-## Building the Image
+bash:
 
-1. Navigate to the project root:
-   ```bash
-   cd C:\Users\jaume\WebstormProjects\API-shelter
+docker run -d -p 3000:3000 --name api-shelter jaumegm97/ifc31c-iaw-gual-jaume:v1
+
+# Contenedor corriendo?
+docker ps
+
+# Probar API
+curl http://localhost:3000
+# O abre en navegador: http://localhost:3000
+
+Descargar docker hub:
+
+docker pull jaumegm97/ifc31c-iaw-gual-jaume:v1
+docker run -d -p 3000:3000 --name api-shelter jaumegm97/ifc31c-iaw-gual-jaume:v1
+curl http://localhost:3000
