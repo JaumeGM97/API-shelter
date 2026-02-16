@@ -5,6 +5,6 @@ const shelterController = require('../controllers/shelter-controller');
 
 router.get('/shelters', shelterController.lsitarShelter)
 router.get('/shelters/:id', shelterController.listarPerId)
-router.get('/shelters/especie', shelterController.lsitarEspecies)
+router.get('/shelter', shelterController.lsitarEspecies)
 
 module.exports = router;
